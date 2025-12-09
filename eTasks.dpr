@@ -111,7 +111,8 @@ uses
   JsonHelpers in 'src\Shared\CommonLib\JsonHelpers.pas',
   AsyncExec in 'src\Shared\CommonLib\AsyncExec.pas',
   HttpService in 'src\Shared\CommonLib\HttpService.pas',
-  eTasks.View.Login in 'src\View\eTasks.View.Login.pas' {fLogin};
+  eTasks.View.Login in 'src\View\eTasks.View.Login.pas' {fLogin},
+  eTasks.Components.TextBox in 'src\Components\eTasks.Components.TextBox.pas' {TextBox: TFrame};
 
 {$R *.res}
 

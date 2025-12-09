@@ -803,7 +803,7 @@
             <Overwrite>True</Overwrite>
             <Required>True</Required>
         </DeployFile>
-        <DeployFile Include="$(ProjectName).Artwork\Android\FM_NotificationIcon_72x72.png" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="assets\Notificacoes\Not_72.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>eTasks\res\drawable-xxhdpi\</RemoteDir>
             <RemoteName>ic_notification.png</RemoteName>
             <DeployClass>Android_NotificationIcon72</DeployClass>
@@ -821,7 +821,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(ProjectName).Artwork\Android\FM_LauncherIcon_192x192.png" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="assets\Icones\Logo_192.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>eTasks\res\drawable-xxxhdpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon192</DeployClass>
@@ -866,7 +866,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(ProjectName).Artwork\Android\FM_LauncherIcon_144x144.png" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="assets\Icones\Logo_144.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>eTasks\res\drawable-xxhdpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon144</DeployClass>
@@ -929,7 +929,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(ProjectName).Artwork\Android\FM_SplashImage_426x320.png" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="assets\SplashScreens\eTasks_426x320.9.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>eTasks\res\drawable-small\</RemoteDir>
             <RemoteName>splash_image_def.9.png</RemoteName>
             <DeployClass>Android_SplashImage426</DeployClass>
@@ -938,7 +938,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(ProjectName).Artwork\Android\FM_SplashImage_640x480.png" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="assets\SplashScreens\eTasks_640x480.9.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>eTasks\res\drawable-large\</RemoteDir>
             <RemoteName>splash_image_def.9.png</RemoteName>
             <DeployClass>Android_SplashImage640</DeployClass>
@@ -965,7 +965,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(ProjectName).Artwork\Android\FM_NotificationIcon_48x48.png" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="assets\Notificacoes\Not_48.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>eTasks\res\drawable-xhdpi\</RemoteDir>
             <RemoteName>ic_notification.png</RemoteName>
             <DeployClass>Android_NotificationIcon48</DeployClass>
@@ -1067,7 +1067,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(ProjectName).Artwork\Android\FM_LauncherIcon_72x72.png" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="assets\Icones\Logo_72.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>eTasks\res\drawable-hdpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon72</DeployClass>
@@ -1139,7 +1139,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(ProjectName).Artwork\Android\FM_NotificationIcon_36x36.png" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="assets\Notificacoes\Not_36.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>eTasks\res\drawable-hdpi\</RemoteDir>
             <RemoteName>ic_notification.png</RemoteName>
             <DeployClass>Android_NotificationIcon36</DeployClass>
@@ -1221,7 +1221,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(ProjectName).Artwork\Android\FM_SplashImage_470x320.png" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="assets\SplashScreens\eTasks_470x320.9.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>eTasks\res\drawable-normal\</RemoteDir>
             <RemoteName>splash_image.png</RemoteName>
             <DeployClass>Android_SplashImage470</DeployClass>
@@ -1248,7 +1248,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(ProjectName).Artwork\Android\FM_LauncherIcon_48x48.png" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="assets\Icones\Logo_48.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>eTasks\res\drawable-mdpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon48</DeployClass>
@@ -1266,7 +1266,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(ProjectName).Artwork\Android\FM_NotificationIcon_24x24.png" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="assets\Notificacoes\Not_24.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>eTasks\res\drawable-mdpi\</RemoteDir>
             <RemoteName>ic_notification.png</RemoteName>
             <DeployClass>Android_NotificationIcon24</DeployClass>
@@ -1311,7 +1311,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(ProjectName).Artwork\Android\FM_NotificationIcon_96x96.png" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="assets\Notificacoes\Not_96.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>eTasks\res\drawable-xxxhdpi\</RemoteDir>
             <RemoteName>ic_notification.png</RemoteName>
             <DeployClass>Android_NotificationIcon96</DeployClass>
@@ -1329,7 +1329,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(ProjectName).Artwork\Android\FM_LauncherIcon_36x36.png" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="assets\Icones\Logo_36.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>eTasks\res\drawable-ldpi\</RemoteDir>
             <RemoteName>ic_launcher.png</RemoteName>
             <DeployClass>Android_LauncherIcon36</DeployClass>
@@ -1347,7 +1347,7 @@
             <RemoteCommand/>
             <Overwrite>True</Overwrite>
         </DeployFile>
-        <DeployFile Include="$(ProjectName).Artwork\Android\FM_SplashImage_960x720.png" Condition="'$(Config)'=='Debug'">
+        <DeployFile Include="assets\SplashScreens\e_tasks_960x720.9.png" Condition="'$(Config)'=='Debug'">
             <RemoteDir>eTasks\res\drawable-xlarge\</RemoteDir>
             <RemoteName>splash_image_def.9.png</RemoteName>
             <DeployClass>Android_SplashImage960</DeployClass>
